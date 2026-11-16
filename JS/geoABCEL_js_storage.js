@@ -1,0 +1,1 @@
+// Guarda todas as pesquisas e Interagir com o JSgear

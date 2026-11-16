@@ -1,0 +1,1 @@
+// Intermediar as pesquisas/objetos com a página HTML
