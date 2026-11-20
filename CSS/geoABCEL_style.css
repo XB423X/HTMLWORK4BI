@@ -1,4 +1,12 @@
-@charset "UTF08";
+@charset "UTF-8";
+
+:root {
+    --fonte: Arial, Helvetica, sans-serif;
+}
+
+#fonteG {
+    font-family: var(--fonte);
+}
 
 .M0 {
     min-width: 10rem;
@@ -18,3 +26,8 @@
     padding-bottom: 5%;
 }
 
+#I-Mine-1 {
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}

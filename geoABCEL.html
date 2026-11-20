@@ -20,20 +20,22 @@
 <!-- Adicionar um meio de indentificar todos os htmls da página. Exemplos: "Id; Class;" (Id = "Qualquer HTML para Identificação") (Class = "BootStrap") -->
 
 <body>
-<div class="container p-5">
+<div class="container p-5" id="fonteG">
     
         <!-- Topo/ToolBar (Breno) -->
         <header>
             <section>
-                <div class="container btn-toolbar">
-                    <div class="btn btn-group text-outline-primary" id="TBsty">
-                        <button type="button" class="btn-solid theme-primary" id="B-part-I"></button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-1"></button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-2"></button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-3"></button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-4"></button>
+                <nav>
+                    <div class="container btn-toolbar">
+                        <div class="btn btn-group text-outline-primary" id="TBsty">
+                            <button type="button" class="btn btn-primary" id="B-part-I"></button>
+                            <button type="button" class="btn btn-primary" id="B-part-1"></button>
+                            <button type="button" class="btn btn-primary" id="B-part-2"></button>
+                            <button type="button" class="btn btn-primary" id="B-part-3"></button>
+                            <button type="button" class="btn btn-primary" id="B-part-4"></button>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </section>
         </header>
     
@@ -58,9 +60,9 @@
                     <div class="M0 card float-start p-05">
                         <div class="card-body">
                             <img src="Imgs/mpB_INFO.png" alt="Mapa_do_Brasil" class="card-img-top">
-                            <h3 id="M0-T-mpB"></h3>
+                            <h2 id="M0-T-mpB"></h2>
                             <p class="card-text" id="M0-t-mpB"></p>
-                            <a href="https://www.youtube.com/watch?v=n3FUwPcV-Y0" class="btn-solid theme-primary" id="BttMpB"></a>
+                            <a href="https://www.youtube.com/watch?v=n3FUwPcV-Y0" class="btn btn-primary" id="BttMpB"></a>
                         </div>
                     </div>
                 </section>
@@ -68,8 +70,15 @@
                 <section id="part-3">
                     <div class="M0 card float-end p-05">
                         <div class="card-body">
-                            <img src="Imgs/mineracao_IMG.jpg" alt="Imagem_representativa_mineracao" class="card-img-top">
-                            <h3 id="C0-T-CFM"></h3>
+                            <figure>
+                                <img src="Imgs/mineracao_IMG.jpg" alt="Vista aérea de uma área de escavação com caminhões e escavadeiras." class="card-img-top">
+
+                                <figcaption id="I-Mine-1">
+                                    Área de escavação com equipamentos.
+                                    Fonte: https://unsplash.com/pt-br/fotografias/fotografia-aerea-de-caminhoes-basculantes-EN1tF2EG-50
+                                </figcaption>
+                            </figure>
+                            <h2 id="C0-T-CFM"></h2>
                             <hr>
                             <p class="card-text" id="C0-t1-CFM"></p>
                             <p class="card-text" id="C0-t2-CFM"></p>
