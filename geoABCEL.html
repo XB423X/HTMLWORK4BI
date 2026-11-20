@@ -25,62 +25,65 @@
         <!-- Topo/ToolBar (Breno) -->
         <header>
             <section>
-                <div class="btn-toolbar">
-                    <div class="btn btn-group text-outline-primary">
-                        <button type="button" class="btn-solid theme-primary" id="B-part-I">Introdução</button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-1">O que são minerais críticos?</button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-2">Mapa do Brasil e reservas de terras raras</button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-3">Como essa mineração influencia no ambiente ao redor?</button>
-                        <button type="button" class="btn-solid theme-primary" id="B-part-4">Referências</button>
+                <div class="container btn-toolbar">
+                    <div class="btn btn-group text-outline-primary" id="TBsty">
+                        <button type="button" class="btn-solid theme-primary" id="B-part-I"></button>
+                        <button type="button" class="btn-solid theme-primary" id="B-part-1"></button>
+                        <button type="button" class="btn-solid theme-primary" id="B-part-2"></button>
+                        <button type="button" class="btn-solid theme-primary" id="B-part-3"></button>
+                        <button type="button" class="btn-solid theme-primary" id="B-part-4"></button>
                     </div>
                 </div>
             </section>
         </header>
     
         <!-- Corpo da Página (Titulos, pesquisas) -->
-        <main>
-    
-            <!-- Introdução (Breno) -->
-            <section id="part-I">
-                <div id="I0">
-                    <h1 id="I0-T-itd"></h1>
+        <div class="container" id="MG">
+            <main>
+                <!-- Introdução (Breno) -->
+                <section id="part-I">
+                    <div id="I0">
+                        <h1 id="I0-T-itd"></h1>
+                        <hr>
+                        <p id="I0-t-itd"></p>
+                    </div>
+                </section>
+                <!-- O que são Minerais Críticos (Clara) -->
+                <section id="part-1">
+            
+                </section>
+                <!-- Mapa do Brasil perante as reservas de terras raras (Breno) -->
+                <section id="part-2">
                     <hr>
-                    <p id="I0-t-itd"></p>
-                </div>
-            </section>
-    
-            <!-- O que são Minerais Críticos (Clara) -->
-            <section id="part-1">
-                
-    
-            </section>
-    
-            <!-- Mapa do Brasil perante as reservas de terras raras (Breno) -->
-            <section id="part-2">
-                <div class="M0">
-                    <h3 id="M0-T-mpB"></h3>
-                    <hr>
-                    <img src="Imgs/mpB_INFO.png" alt="Mapa_do_Brasil" class="rounded float-start p-5 img-fluid">
-
-                    <p class="ps-10" id="M0-t-mpB"></p>
-
-                    <iframe class="position-relative" width="700" height="500" src="https://www.youtube.com/watch?v=n3FUwPcV-Y0" title="Vídeo sobre as terras raras" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                </div>
-
-            </section>
-    
-            <!-- Como era, é, e pode ser feita a mineração? E quais são as tecnologias usadas? (Breno) -->
-            <section id="part-3">
-    
-            </section>
-    
-            <!-- Como essa mineração influencia no ambiente ao redor? E no meio ambiente? E quais os impactos sociais? (Clara)-->
-            <section id="part-4">
-                
-            </section>
-    
-        </main>
+                    <div class="M0 card float-start p-05">
+                        <div class="card-body">
+                            <img src="Imgs/mpB_INFO.png" alt="Mapa_do_Brasil" class="card-img-top">
+                            <h3 id="M0-T-mpB"></h3>
+                            <p class="card-text" id="M0-t-mpB"></p>
+                            <a href="https://www.youtube.com/watch?v=n3FUwPcV-Y0" class="btn-solid theme-primary" id="BttMpB"></a>
+                        </div>
+                    </div>
+                </section>
+                <!-- Como era, é, e pode ser feita a mineração? E quais são as tecnologias usadas? (Breno) -->
+                <section id="part-3">
+                    <div class="M0 card float-end p-05">
+                        <div class="card-body">
+                            <img src="Imgs/mineracao_IMG.jpg" alt="Imagem_representativa_mineracao" class="card-img-top">
+                            <h3 id="C0-T-CFM"></h3>
+                            <hr>
+                            <p class="card-text" id="C0-t1-CFM"></p>
+                            <p class="card-text" id="C0-t2-CFM"></p>
+                            <p class="card-text" id="C0-t3-CFM"></p>
+                            <p class="card-text" id="C0-t4-CFM"></p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Como essa mineração influencia no ambiente ao redor? E no meio ambiente? E quais os impactos sociais? (Clara)-->
+                <section id="part-4">
+            
+                </section>
+            </main>
+        </div>
     
         <!-- Rodapé/Copyright (Clara) -->
         <footer>
