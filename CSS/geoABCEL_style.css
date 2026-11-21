@@ -2,6 +2,26 @@
 
 :root {
     --fonte: Arial, Helvetica, sans-serif;
+    --titulo: 18px;
+    --subtitulo: 16px;
+    --texto:12px;
+    --comentario: 8px;
+}
+
+.titulo {
+    font-size: var(--titulo);
+}
+
+.subtitulo {
+    font-size: var(--subtitulo);
+}
+
+.texto {
+    font-size: var(--texto);
+}
+
+.comentario {
+    font-size: var(--comentario);
 }
 
 #fonteG {
@@ -11,14 +31,79 @@
 .M0 {
     min-width: 10rem;
     max-width: 50%;
-    min-height: 10rem;
-    height: 50rem;
+    min-height: 35.5rem;
     max-height: 80rem;
 }
 
+
+
 #TBsty {
     position: fixed;
+    top: 1rem;
+    left: 50%;
     z-index: 10;
+
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    max-width: none;
+
+    transform: translateX(-50%) scale(1);
+    transform-origin: top center;
+}
+
+#TBsty > .btn {
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+/* Diminui a barra quando a largura disponível for menor. */
+@media (max-width: 1200px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.85);
+    }
+}
+
+@media (max-width: 992px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.7);
+    }
+}
+
+@media (max-width: 768px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.55);
+    }
+}
+
+@media (max-width: 678px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.45);
+    }
+}
+
+@media (max-width: 550px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.4);
+    }
+}
+
+@media (max-width: 480px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.35);
+    }
+}
+
+@media (max-width: 428px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.3);
+    }
+}
+
+@media (max-width: 358px) {
+    #TBsty {
+        transform: translateX(-50%) scale(0.25);
+    }
 }
 
 #MG {
@@ -27,7 +112,6 @@
 }
 
 #I-Mine-1 {
-    font-size: 1rem;
     line-height: 1.5;
     overflow-wrap: anywhere;
 }
